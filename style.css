@@ -1,0 +1,404 @@
+
+.global-header-border{
+    width: 100%;
+    height: 25px;
+    background-color: #FFC300;
+}
+.video-rapper{
+    width: 100%;
+    height: auto;
+}
+
+.video-rapper video{
+    width: 100%;
+    object-fit: contain;
+    vertical-align: bottom;
+    position: relative;
+}
+
+.gnav{
+    width: 532px;
+    height: 92px;
+    background: #efefef;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    opacity: 0.5;
+    position: fixed;
+    z-index: 9999;
+}
+
+.gnav_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gnav_ul{
+    font-size: 20px;
+    margin: 36px auto;
+}
+.main{
+    width: 100%;
+    /* height: auto; */
+    background-color: #2E2C3B;
+}
+.profile-border{
+    width: 122px;
+    height: 24px;
+    background-color: #FFC300;
+    margin: 0 auto;
+}
+.profile{
+    font-family: 'Charm', cursive;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 31px;
+}
+.profile_rapper{
+    width: 83%;
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+   ;
+    
+}
+.profile-img{
+    width: 387px;
+    height: 387px;
+    margin: 0 0 0 280px;
+}
+.personalinformation{
+    width: 401px;
+    height: auto;
+    background: #e3e3e3;
+    padding: 19px 0 13px 19px;
+}
+.tokyo{
+    font-size: 16px;
+    font-weight: bold;
+}
+.web{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.syoukai{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.syoukai-border{
+    width: 82px;
+    height: 5px;
+    background-color: #FFC300;
+}
+.honbun{
+    margin-top: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-right: 13px;
+}
+.name-border{
+    width: 323px;
+    height: 64px;
+    background-color: #FFC300;
+    margin-bottom: 33px;
+}
+.name{
+    font-size: 40px;
+    color: white;
+    text-align:center;
+    padding: 10px 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+.syumi-border{
+    width: 386px;
+    height: 64px;
+    background-color: #FFC300;
+    margin-bottom: 33px;
+}
+.syumi{
+    font-size: 40px;
+    color: white;
+    text-align:center;
+    padding: 10px 0;
+    font-family: 'Oswald', sans-serif;
+}
+.works-border{
+    width: 122px;
+    height: 24px;
+    background-color: #FFC300;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+.works{
+    font-family: 'Charm', cursive;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 31px;
+}
+#works_list{
+    width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.works_item{
+    width: 32%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.hover-mask {
+    align-items: center; /* テキストの中央揃え */
+    background: rgba(0, 0, 0, .5); /* マスクの色(黒の50%) */
+    bottom: 0;
+    color: #fff; /* テキストの色 */
+    display: flex; /* テキストの中央揃え */
+    height: auto;
+    justify-content: center; /* テキストの中央揃え */
+    align-items: center;
+    left: 0;
+    opacity: 0; /* 最初は透明(非表示) */
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity .6s ease; /* ゆっくりopacityのみへ変化させる */
+    width: 100%;
+    text-align: center;
+  }
+  .hover-mask:hover {
+    opacity: 1; /* hoverしたら透過しない(表示させる) */
+  }
+  .hover-mask p{
+    width: 100%; /* テキストを横幅いっぱいにならないようにする */
+    font-size: 40px;
+    font-weight: bold;
+    align-items: center;
+  }
+  .a{
+    font-size: 15px;
+    font-weight: bold;
+  }
+.works_item img{
+    width: 100%;
+    height: auto;
+}
+.gutter-sizer{
+    width: 2%;
+}
+.okamoto_rapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+.scroll_up {
+    transition: 0.8s ease-in-out;
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  .scroll_up.on {
+    transform: translateY(0);
+    opacity: 1.0;
+  }
+  .ahaha{
+    text-decoration: none;
+    color: #2E2C3B;
+  }
+  .contact{
+    font-family: 'Charm', cursive;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 31px;
+  }
+.contact-border{
+    width: 140px;
+    height: 24px;
+    background-color: #FFC300;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+.contact_form{
+    display: flex;
+    flex-direction:column;
+    /*コレ*/justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 503px;
+    height: 30px;
+    border: solid 5px #FFC300;
+    margin-bottom: 43px;
+}
+.texterea{
+    border: solid 5px #FFC300;
+    resize: none;
+    margin-bottom: 52px;
+}
+.btn{
+    width: 197px;
+    height: 56px;
+    background: #fff;
+    border: 5px solid #ffc600;
+    font-size: 30px;
+    font-weight: normal;
+    color: #2e2c3c;
+    margin-bottom: 190px;
+}
+.btn:hover{
+    opacity: 0.5;
+}
+.global-footer{
+    height: 90px;
+    background: #8d8d8d;
+}
+.ppp{
+    display: flex;
+    justify-content: center;
+    line-height: 90px;
+    color: white;
+}
+.works-body{
+    background-color: #2E2C3B;
+}
+.main-works{
+    width: 1000px;
+    margin: 0 auto;
+}
+.work-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-flex img{
+    width: 100%;
+}
+.li1{
+    width:45%;
+}
+.li2{
+    width: 35%;
+    margin-top: auto;
+}
+.li3{
+    width: 45%;
+}
+.l3{
+    width: 65%;
+    margin-bottom: 40px;
+}
+.l3 img{
+    width: 100%;
+}
+.l3i{
+    width: 65%;
+}
+.l3i img{
+    width: 100%;
+}
+.l4{
+    width: 65%;
+    margin-bottom: 40px;
+}
+.l4 img{
+    width: 100%;
+}
+.l4i{
+    width: 65%;
+}
+.l4i img{
+    width: 100%;
+}
+.work-flex5{
+    display: flex;
+    flex-direction: column;
+}
+.l5{
+    width: 75%;
+    margin-right: auto;
+}
+.l5 img{
+    width: 100%;
+}
+.work-flex6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.l6{
+    width: 45%;
+}
+.l6 img{
+    width: 100%;
+}
+.l6i{
+    width: 50%;
+    /* margin-top: auto; */
+}
+.l6i img{
+    width: 100%;
+}
+.l7-1{
+    width: 65%;
+    box-shadow: 0 0 10px black;
+}
+.l9{
+    width: 65%;
+    margin-bottom: 40px;
+}
+.l9 img{
+    width: 100%;
+}
+.l9i{
+    width: 65%;
+}
+.l9i img{
+    width: 100%;
+}
+.l10{
+    width: 65%;
+    margin-bottom: 50px;
+}
+.l10 img{
+    width: 100%;
+}
+.l10i{
+    width: 65%;
+}
+.l10i img{
+    width: 100%;
+}
+.back{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.title{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    margin: 75px 0;
+}
+.sub-title{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.sub-titlp{
+    color: white;
+    margin-top: 15px;
+    line-height: 150%;
+}
